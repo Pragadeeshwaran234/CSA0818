@@ -1,0 +1,12 @@
+def f_to_c(c):
+    f=(c*1.8)+32
+    return f
+def c_to_f(f):
+    c=(f-32)/1.8
+    return c
+a=int(input("enter the number"))
+b=f_to_c(a)
+c=c_to_f(a)
+print("the faen is",b)
+print("the celcius is",c)
+
