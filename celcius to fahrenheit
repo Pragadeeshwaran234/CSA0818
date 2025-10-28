@@ -1,0 +1,4 @@
+#celcius to farenheit
+c=int(input("enter the value"))
+f=(c*1.8)+32
+print("the farenheit is",f)
