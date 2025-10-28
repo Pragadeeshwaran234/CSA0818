@@ -1,0 +1,9 @@
+#using function square and cube
+def asquare_cube(a):
+    c=a**2
+    b=a**3
+    print("enter the square value",c)
+    print("enter thr cube value", b)
+a=int(input("enter the number"))
+asquare_cube(a)
+    
